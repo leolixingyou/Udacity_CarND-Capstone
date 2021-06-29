@@ -96,8 +96,11 @@ Specific to these libraries, the simulator grader and Carla use the following:
 We are working on a fix to line up the OpenCV versions between the two.
 
 6. Review
-It was very difficult to code classifier code at first, but the Walkthrough in the lecture helped me a lot.
+It was very difficult at first, but the Walkthrough in the lecture helped me a lot.
 This gave me a lot of confidence and I was able to implement the vehicle system.
 It was a really useful lecture and I think it's worth recommending it to someone else.
-Thank you and peace ！！
+Thank you!!
 
+### Result
+
+![SImulator](./imgs/simulator.gif  "Simulator")
