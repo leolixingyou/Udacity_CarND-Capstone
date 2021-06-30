@@ -17,7 +17,7 @@ This repository contains the code for the final project of the [Udacity Self-Dri
 Carla's system consists of a set of components implemented and deployed as [ROS](http://www.ros.org/) node and can be broken down into 3 main  sub-system:  ***Perception***, ***Planning*** and  ***Control***:
 
 ![ROS System Architecture](./imgs/architecture.png)
-System Architecture Picture From  [Udacity-CarND-capstone-CarlaAI](https://github.com/williamhyin/Udacity-CarND-capstone-CarlaAI)
+System Architecture (Picture From  [Udacity-CarND-capstone-CarlaAI](https://github.com/williamhyin/Udacity-CarND-capstone-CarlaAI))
 
 Since Udacity already provides the basic execution framework, our team decided to focus on the implementation and integration of the following 3 nodes:
 
