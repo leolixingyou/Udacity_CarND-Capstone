@@ -55,7 +55,7 @@ Traffic light detection node
 In this project I download the weight from below "Real world testing" and detect in RGB space with resize image to (300,300).
 Unluckly there is some delay in my code that shows pass through the road and stop to wait green signal sometime, though it's just sometime.
 
-#### Note
+## Note
 
 I just followed the idea like below and code it in my mind logic.
 And thanks again williamhyin for perfect repo template like below:
