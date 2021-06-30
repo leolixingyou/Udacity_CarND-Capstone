@@ -12,6 +12,8 @@ Please use **one** of the two installation options, either native **or** docker 
 
 ## Overview
 
+This repo template is refered from [Udacity-CarND-capstone-CarlaAI](https://github.com/williamhyin/Udacity-CarND-capstone-CarlaAI).
+
 This repository contains the code for the final project of the [Udacity Self-Driving Car Nanodegree](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013): Programming a Real Self-Driving Car developed by the team **CarlaAI**.
 
 Carla's system consists of a set of components implemented and deployed as [ROS](http://www.ros.org/) node and can be broken down into 3 main  sub-system:  ***Perception***, ***Planning*** and  ***Control***:
@@ -53,10 +55,13 @@ Traffic light detection node
 In this project I download the weight from below "Real world testing" and detect in RGB space with resize image to (300,300).
 Unluckly there is some delay in my code that shows pass through the road and stop to wait green signal sometime, though it's just sometime.
 
-### Waypoint Updater
+#### Note
 
-I just follow this idea and code it in my mind logic.And thank williamhyin for perfect repo template like below:
+I just followed the idea like below and code it in my mind logic.
+And thanks again williamhyin for perfect repo template like below:
 From  [Udacity-CarND-capstone-CarlaAI](https://github.com/williamhyin/Udacity-CarND-capstone-CarlaAI)
+
+### Waypoint Updater
 
 The waypoint updater node is responsible for generating a trajectory in terms of waypoints so that the [waypoint follower](./ros/src/waypoint_follower) can generate the correct [Twist Messages](https://docs.ros.org/api/geometry_msgs/html/msg/Twist.html) consumed by the [DBW Node](./ros/src/twist_controller/dbw_node.py). Each of the waypoints are generated from a subset of the overall set of waypoints provided according to the vehicle position (published in the `/current_pose` topic). For each waypoint a target velocity is generated to smoothen the transition between each waypoint.
 
